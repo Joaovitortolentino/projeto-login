@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina de login</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+</head>
+<body>
+    <main>
+        <article>
+            <section id="img">
+            </section>
+            <section id="form">
+                <h1>login</h1>
+                <p>Olá novamente! Faça seu login e aproveite!</p>
+                <form action="cadastro.php" method="post" autocomplete="off">
+
+                    <p class="cadastro" id="email">
+                        <label for="iemail" style="font-size: 15px;">E-mail:</label>
+                        <br>
+                        <input type="email" name="E-mail" id="iemail" autocomplete="email" style="height: 20px;">
+                    </p>
+
+                    <p class="cadastro" id="Senha">
+                        <label for="isenha" style="font-size: 15px;">Senha</label>
+                        <br>
+                        <input type="password" name="Senha" id="isenha" style="height: 20px;">
+                    </p>
+
+                    <p id="Enviar">
+                        <input type="submit" value="Enviar" style="width: 155px; height: 30px; margin-top: 15px; background-color: black; color: white; border-radius: 10px;">
+                    </p>
+                </form>
+            </section>
+        </article>
+    </main>
+</body>
+</html>

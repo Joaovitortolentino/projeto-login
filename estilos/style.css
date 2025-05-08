@@ -21,7 +21,7 @@ article{
     position: absolute;
     background-color: white;
     height: 545px;
-    width: 280px;
+    width: 350px;
     box-sizing: border-box;
     top: 50%;
     left: 50%;
@@ -43,11 +43,13 @@ section#form h1{
 }
 
 section#form p{
+    font-weight: bold;
     font-size: 1em;
 }
 
 section#form p.cadastro{
     padding: 5px 0px;
+    font-weight: normal;
 }
 
 section#form p#email{

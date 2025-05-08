@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pagina de login</title>
     <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/tablets.css" media= "screen and (min-width: 768px) and (max-width: 1020px)">
 </head>
 <body>
     <main>
@@ -19,17 +20,17 @@
                     <p class="cadastro" id="email">
                         <label for="iemail" style="font-size: 15px;">E-mail:</label>
                         <br>
-                        <input type="email" name="E-mail" id="iemail" autocomplete="email" style="height: 20px;">
+                        <input type="email" name="E-mail" id="iemail" autocomplete="email" required placeholder="  Digite seu e-mail...">
                     </p>
 
                     <p class="cadastro" id="Senha">
-                        <label for="isenha" style="font-size: 15px;">Senha</label>
+                        <label for="isenha" style="font-size: 15px;">Senha:</label>
                         <br>
-                        <input type="password" name="Senha" id="isenha" style="height: 20px;">
+                        <input type="password" name="Senha" id="isenha" placeholder="  Digite sua senha..." required minlength="7">
                     </p>
 
                     <p id="Enviar">
-                        <input type="submit" value="Enviar" style="width: 155px; height: 30px; margin-top: 15px; background-color: black; color: white; border-radius: 10px;">
+                        <input id="ienvio" type="submit" value="Enviar">
                     </p>
                 </form>
             </section>

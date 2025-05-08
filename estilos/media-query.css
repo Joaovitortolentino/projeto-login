@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+@media screen and (min-width: 820px) and (max-width: 978px){
+    body, html{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    main{
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+        text-align: center;
+    }
+    
+    article{
+        position: absolute;
+        background-color: white;
+        height: 450px;
+        width: 570px;
+        box-sizing: border-box;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.616);
+    }
+    
+    section#img{
+        background: url(../imagens/architecture-1314416_640.jpg) no-repeat right right;
+        background-size: cover;
+        height: 100%;
+        width: 35%;
+        float: left;
+    }
+
+    section#form{
+        float: right;
+        height: 100%;
+        width: 60%;
+        padding-top: 50px;
+    }
+    
+    section#form h1{
+        font: bold normal 2em 'Georgia';
+        padding: 10px 0px;
+    }
+    
+    section#form p{
+        font-size: 1em;
+    }
+    
+    section#form p.cadastro{
+        padding: 5px 0px;
+    }
+    
+    section#form p#email{
+        padding-top: 13px;
+    }
+    
+    input#iemail{
+        width: 15em;
+        height: 2em;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+    input#isenha{
+        width: 15em;
+        height: 2em;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+    input#ienvio{
+        width: 15em;
+        height: 3em;
+        margin-top: 15px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0);
+    }
+    
+    input#ienvio:hover{
+        background-color: #5f2c82;
+        width: 16em;
+        height: 46px;
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.658);
+        transition: background-color 0.5s, width 0.5s, height 0.5s, box-shadow 0.5s;
+    
+    } 
+}
